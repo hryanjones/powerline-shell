@@ -15,7 +15,7 @@ class Color:
     REPO_DIRTY_FG = 3
     REPO_DIRTY_BG = 0
 
-    JOBS_FG = 6
+    JOBS_FG = 46
     JOBS_BG = 8
 
     CMD_PASSED_FG = 15

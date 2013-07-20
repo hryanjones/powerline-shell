@@ -8,10 +8,10 @@
 
 SEGMENTS = [
 # Show current virtual environment (see http://www.virtualenv.org/)
-    'virtual_env',
+    #'virtual_env',
 
 # Show the current user's username as in ordinary prompts
-    'username',
+    #'username',
 
 # Show the machine's hostname. Mostly used when ssh-ing into other machines
     #'hostname',
@@ -25,13 +25,13 @@ SEGMENTS = [
     'git',
 
 # Show the current mercurial branch and status
-    'hg',
+    #'hg',
 
 # Show the current svn branch and status
     'svn',
 
 # Show the current fossil branch and status
-    'fossil',
+    #'fossil',
 
 # Show number of running jobs
     'jobs',
