@@ -21,7 +21,7 @@ def add_cwd_segment():
     # only issue here is that you may not always be using X (e.g. SSH, will need to test)
     # xwininfo -id (xprop -root | awk '/_NET_ACTIVE_WINDOW\(WINDOW\)/{print $NF}') | grep --color=never geometry | grep -Eo "[0-9]*x[0-9]*"'
     if len(names) > max_depth:
-        names = names[:2] + [u'\u2026'] + names[2 - max_depth:]
+        names = names[0] + [u'\u2026'] + names[-1]
 
     if not powerline.args.cwd_only:
         names[0] = ' /'+names[0]
